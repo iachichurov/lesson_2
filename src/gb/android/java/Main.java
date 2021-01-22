@@ -5,9 +5,13 @@ import java.util.Arrays;
 
 public class Main {
 
+// Метод печати одномерных массивов
+
     public static void print(int[] array) {
         System.out.println(Arrays.toString(array));
     }
+
+// Метод печати двумерных массивов
 
     public static void print2(int[][] array) {
         for (int[] a : array) {
